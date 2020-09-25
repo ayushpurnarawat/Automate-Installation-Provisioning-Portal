@@ -1,0 +1,2 @@
+raghav ansible_user=root ansible_ssh_pass=root 
+192.168.29.226 ansible_user=root ansible_ssh_pass=root

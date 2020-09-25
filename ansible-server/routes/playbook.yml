@@ -1,0 +1,9 @@
+---
+- hosts: all 
+  tasks:
+     - name: Install_Python3-lxml
+       package: name=name=python3-lxml state=undefined
+     - name: Install_Perl
+       package: name=name=perl state=undefined
+     - name: Install_Python3-PIP
+       package: name=name=python3-pip state=undefined

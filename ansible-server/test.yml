@@ -1,0 +1,6 @@
+- hosts: all
+  tasks:
+     - name: do a uname
+       shell: uname -a > /home/raghav/Desktop/ayush.txt
+     - name: whoam i 
+       shell: whoami >> /home/raghav/Desktop/ayush.txt

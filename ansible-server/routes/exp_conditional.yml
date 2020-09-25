@@ -1,0 +1,10 @@
+---
+
+- hosts: all
+  become: yes
+  tasks:
+    - name: install httpd using YUM command
+      yum: name=firefox state=absent
+    
+
+    
